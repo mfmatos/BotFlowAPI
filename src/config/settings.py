@@ -140,8 +140,5 @@ STATIC_URL = '/static/'
 WEBHOOK_URLS = ['http://localhost:3000/webhook']
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ]
+    'DEFAULT_AUTHENTICATION_CLASSES': []
 }
